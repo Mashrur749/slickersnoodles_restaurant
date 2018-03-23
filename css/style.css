@@ -95,6 +95,7 @@ nav ul li a:hover{
 #section2 img{
 	height: 43em;
 	width: 100%;
+	opacity: .9;
 }
 
 #section3{
@@ -155,6 +156,7 @@ nav ul li a:hover{
 #section5 img{
 	height: 45em;
 	width: 100%;
+	opacity: .9;
 }
 
 
@@ -227,6 +229,11 @@ hr.col-sm-12{
 }
 
 
+#section8 ul li a:hover{
+	color: rgb(194, 203, 206);
+}
+
+
 #section8 img{
 	border-radius: 25px;
 	width: 32px;
@@ -271,7 +278,22 @@ hr.col-sm-12{
 }
 
 footer{
-	background: rgb(22, 23, 25);
+	height: 13%;
+	background: rgb(37, 39, 43);
+}
+
+.footer{
+	padding: 1em 0 0 0;
+	color: rgb(132, 132, 132);
+}
+
+footer img{
+	width: 40px;
+	border-radius: 20px;
+	opacity: .8;
+}
+footer img:hover{
+	opacity: 1;
 }
 
 
@@ -280,6 +302,20 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(51, 57, 66, 0.75), rgba(0, 0, 0, 0));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
