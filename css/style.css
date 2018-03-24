@@ -11,9 +11,10 @@ header{
 	background-image: url("../noodle-1303003_1920.jpg");
 	background-size: cover;
 	text-align: center;
-	background-origin: 3em;
 	color: rgb(247, 255, 191);
+	background-origin: 3em	color: rgb(247, 255, 191);
 	background-position: center;
+	background-attachment: fixed;
 }
 
 
@@ -44,6 +45,11 @@ nav{
 	border-radius: 0!important;
 	border: 0!important;
 }
+
+.navbar-nav{
+	float: right;
+}
+
 nav ul li{
 	font-size: 1.3em;
 	margin: 0 .8em;
@@ -155,7 +161,7 @@ nav ul li a:hover{
 #section5 img{
 	height: 45em;
 	width: 100%;
-	opacity: .9;
+	opacity: .8;
 }
 
 
@@ -210,7 +216,7 @@ hr.col-sm-12{
 	color: rgb(194, 203, 206);
 }
 
-.footer-branding{
+.section8-branding{
 	padding: 3em;
 }
 
@@ -233,19 +239,19 @@ hr.col-sm-12{
 }
 
 
-#section8 img{
+#section8 img,.contact img{
 	border-radius: 25px;
 	width: 32px;
 	opacity: .6;
 	transition: all .5s;
 }
 
-#section8 .insta{
+#section8 .insta,.contact .insta{
 	width: 38px;
 	height: 36px;
 }
 
-#section8 img:hover{
+#section8 img:hover,.contact img:hover{
 	opacity: .9;
 }
 
@@ -287,7 +293,7 @@ footer{
 }
 
 footer img{
-	width: 40px;
+	width: 38px;
 	border-radius: 20px;
 	opacity: .8;
 }
@@ -304,21 +310,53 @@ hr {
 
 
 
+#modal-window{
+	display: none;
+	z-index: 1;
+	width: 100%;
+	height:100%;
+	position: fixed;
+	background-color: rgba(68, 74, 81,.8);
+ 	animation-name:modalopen;
+  	animation-duration:1s;
+}
+
+
+.close{
+	float: right;
+}
+
+#modal-content{
+	margin: 10% 25%;
+	background-color: rgb(125, 140, 96);
+}
+
+#modal-content ul {
+	list-style: none;
+}
+
+#modal-content .row{
+	margin: 20% 0;
+	padding: 3em 3em 3em 3em;
+	height: 100%;
+	width: 100%;
+}
+
+.close{
+	padding: 3%;
+}
+
+.number{
+	padding-top: 2em;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+#modal-window hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(31, 45, 24,.5), rgba(0, 0, 0, 0));
+}
 
 
 
@@ -345,8 +383,8 @@ hr {
 
 
 @media(max-width: 790.5px){
-	nav .navbar-nav{
-		clear: right;
+	.pullright{
+		clear: all!important;
 	}
 	header{
 		background-position: center;
@@ -363,5 +401,33 @@ hr {
 	}
 }
 
+@media(max-width: 768px){
 
+	nav .navbar-nav{
+		float: none;
+	}
 
+	.site_map{
+		display: none;
+	}
+
+	.location{
+		margin-left: 5%;
+		float: left;
+	}
+
+	.hours{
+		float: right;
+		margin-right: 10%;
+	}
+
+	.contact{
+		text-align: center;
+		padding: 1.5em 0;
+	}
+}
+
+@keyframes modalopen{
+  from{ opacity: 0}
+  to {opacity: 1}
+}

@@ -14,8 +14,41 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-
+ 
     <header>
+      <div id="modal-window">
+        <div id="modal-content">
+          <div class="close">&times;</div>
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Contact Us</h1>
+              <hr>
+            </div>
+              <div class="col-sm-2 col-md-4 location">
+                <ul>
+                  <li><h4>Location</h4></li>
+                  <p>Upper Level,<br>Holmes Building,<br>404 Error Street, <br>City of Circuit.</p>
+                </ul>
+              </div>
+              <div class="col-sm-2 col-md-4 hours">
+                <ul>
+                  <h4>Opening Hours</h4>
+                  <p>Monday - Friday: <br> 8am-11pm </p>
+                  <p>Saturday and Sunday:<br> 8am-5pm.</p>
+                </ul>
+              </div>
+              <div class="col-sm-2 col-md-4 contact">
+                <h4>Connect With Us</h4>
+                <a href=""><img src="facebook-2429746_640.png"></a>
+                <a href=""><img class="insta" src="instagram-2935404_1280.png"></a>
+                <a href=""><img src="twitter-2430933_1280.png"></a>
+              </div>
+              <div class="col-sm-12 text-center number">
+                  <h5>Call-us : 311-232-1321</h5>
+              </div>
+           </div> 
+        </div>
+      </div>
       <nav class="navbar navbar-inverse">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-content" aria-expanded="false">
@@ -26,19 +59,15 @@
             <a class="navbar-brand" href="#">Slicker's Noodles <i class="fas fa-fire nav-logo"></i></a>
           </div>
           <div class="collapse navbar-collapse" id="nav-content">
-            <ul class="nav navbar-nav pull-right">
-                <li><a href="#" class="modal-btn"> Contact </a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Our Story</a></li>
-                <li><a href="#">Locations</a></li>
+            <ul class="nav navbar-nav">
+                <li><a href="#" id="modal-btn"> Contact </a></li>
+                <li><a href="#section4">Menu</a></li>
+                <li><a href="#section6">Our Story</a></li>
+                <li><a href="#section7">Locations</a></li>
                 <li><a href="#">Order Now</a></li>
-              </ul>
-              <div class="modal-window">
-                
-              </div>
+            </ul>
           </div>
       </nav>
-
       <div class="content">
            <h1>FEEL THE <strong>NOODLY</strong> LOVE!</h1> 
            <p>FROM SOUTHASIA TO YOUR TONGUE.</p>      
@@ -226,13 +255,13 @@
       <section id="section8">
 
         <div class="container">
-          <div class="text-center footer-branding">
+          <div class="text-center section8-branding">
             <h1><i class="fas fa-fire "></i></h1>
             <h2>SLICKER'S NOODLES</h2>
           </div>
         
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2 site_map">
               <ul>
                 <li><h4>Site Map</h4></li>
                 <li><a href="#">Contact</a></li>
@@ -241,26 +270,26 @@
                 <li><a href="#">Locations</a></li>
               </ul>
             </div>
-            <div class="col-sm-2">
+            <div class="col-md-2 col-sm-12 location">
               <ul>
                 <li><h4>Location</h4></li>
                 <p>Upper Level,<br>Holmes Building,<br>404 Error Street, <br>City of Circuit.</p>
               </ul>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-sm-12 hours">
               <ul>
                 <h4>Opening Hours</h4>
                 <p>Monday - Friday: <br> 8am-11pm </p>
                 <p>Saturday and Sunday:<br> 8am-5pm.</p>
               </ul>
             </div>
-            <div class="col-sm-2">
+            <div class="col-md-2 col-sm-12 contact">
               <h4>Connect With Us</h4>
               <a href=""><img src="facebook-2429746_640.png"></a>
               <a href=""><img class="insta" src="instagram-2935404_1280.png"></a>
               <a href=""><img src="twitter-2430933_1280.png"></a>
             </div>
-            <div class="col-sm-3" id="contact">
+            <div class="col-sm-3 contact" >
               <h4>SIGN UP TO RECEIVE NEWS FROM SLICKER'S NOODLES</h4>
               <p>Complete the form to receive information on the latest events,news and special offers.</p>
               <form method="" class="form-group">
@@ -279,7 +308,7 @@
           Copyright &copy; Musaddiqur Rahman 2018
         </div>
         <div class="text-center">
-          <a href="https://github.com/Mashrur749"><img src="GitHub-Mark.png"></a>
+          <a href="https://github.com/Mashrur749" target="_blank"><img src="GitHub-Mark.png"></a>
         </div>
       </footer>
 
@@ -289,8 +318,3 @@
 
   </body>
 </html>
-
-
-<!-- font-family: 'Anton', sans-serif;
-font-family: 'Pacifico', cursive;
-font-family: 'Love Ya Like A Sister', cursive; -->
