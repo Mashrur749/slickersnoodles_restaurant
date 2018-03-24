@@ -10,12 +10,10 @@ header{
 	height: 100%;
 	background-image: url("../noodle-1303003_1920.jpg");
 	background-size: cover;
-	background-position: 0 -3em;
 	text-align: center;
 	background-origin: 3em;
 	color: rgb(247, 255, 191);
-	background-attachment: fixed;
-	background-position: 0 -6em;
+	background-position: center;
 }
 
 
@@ -55,7 +53,7 @@ nav ul li a{
 	transition: transform .5s;
 }
 nav ul li a:hover{
-	transform: scale(1.08);
+	transform: scale(1.03);
 
 }
 
@@ -93,6 +91,7 @@ nav ul li a:hover{
 }
 
 #section2 img{
+	position: center;
 	height: 43em;
 	width: 100%;
 	opacity: .9;
@@ -265,7 +264,7 @@ hr.col-sm-12{
 	color: rgb(132, 132, 132);
 	font-weight: 600;
 	margin: .08em 0;
-	padding: .3em .8em;
+	padding: .4em .8em;
 	background-color: rgb(22, 23, 25);
 	border: 1px rgba(114, 114, 114,.5) solid;
 	border-radius: 5px;
@@ -326,19 +325,43 @@ hr {
 
 
 
+@media(max-width: 893px){
+	nav .navbar-nav li a{
+		padding: 15px 0;
+	}
+	#section2 img,#section5 img{
+		height: 70%;
+	}
+	#contact,.form-group{
+		clear: all;
+		width: 100%!important;
+	}
 
-
-
-@media(max-width: 767px){
-	nav .navbar-nav{
+	#section8 form .form-control,#button{
 		width: 100%;
+	}
+}
+
+
+
+@media(max-width: 790.5px){
+	nav .navbar-nav{
 		clear: right;
 	}
-}
-
-@media(max-width: 860px){
-	nav .navbar-nav{
-		transition: none;
-		font-size: .8em;
+	header{
+		background-position: center;
+	}
+	nav .navbar-nav li a{
+		padding: 15px 0;
+	}
+	
+	#section2 img,#section5 img{
+		height: 70%;
+	}
+	.navbar-brand{
+		padding: 15px 0;
 	}
 }
+
+
+
