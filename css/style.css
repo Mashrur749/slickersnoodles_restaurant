@@ -137,8 +137,21 @@ nav ul li a:hover{
 }
 
 #section4 h2{
+	margin-left: 1em;
 	color: rgb(194, 203, 206);
 }
+
+#section4 .box h2:hover{
+	cursor: pointer;
+	color: rgb(225, 225, 250);
+}
+
+#section4 .box div{
+	display: none;
+	margin-left: 2.2em;
+}
+
+
 
 #section4 .boxes{
 	color: rgb(194, 203, 206);
@@ -274,6 +287,7 @@ hr.col-sm-12{
 	background-color: rgb(22, 23, 25);
 	border: 1px rgba(114, 114, 114,.5) solid;
 	border-radius: 5px;
+	transition: all .5s;
 }
 
 #button:hover{
@@ -327,19 +341,36 @@ hr {
 }
 
 #modal-content{
-	margin: 10% 25%;
+	margin: 2% 25%;
+	padding: 0 0 2% 0;
 	background-color: rgb(125, 140, 96);
 }
 
 #modal-content ul {
 	list-style: none;
+	padding: 0;
+}
+#modal-content .row h4, #modal-content span{
+	color: rgb(253, 255, 247);
+}
+#modal-content .row .location{
+	float: left;
+	margin:  0 ;
+	padding:0  0 0 6em;
+	height: 100%;
+	width: 50%;
 }
 
-#modal-content .row{
-	margin: 20% 0;
-	padding: 3em 3em 3em 3em;
+#modal-content .row .hours{
+	float: right;
+	margin: 0 ;
+	padding: 0 6em 0 0;
 	height: 100%;
-	width: 100%;
+	width: 50%;
+}
+
+#modal-content .row h1{
+	margin: 0;
 }
 
 .close{
@@ -350,6 +381,9 @@ hr {
 	padding-top: 2em;
 }
 
+#modal ul {
+	padding: 0!important;
+}
 
 
 #modal-window hr {
@@ -357,6 +391,7 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(31, 45, 24,.5), rgba(0, 0, 0, 0));
 }
+
 
 
 
@@ -378,6 +413,10 @@ hr {
 	#section8 form .form-control,#button{
 		width: 100%;
 	}
+
+	#modal-content .contact h4{
+		margin: 4em 0 0 0;
+	}
 }
 
 
@@ -398,6 +437,10 @@ hr {
 	}
 	.navbar-brand{
 		padding: 15px 0;
+	}
+
+	#modal-content .contact h4{
+		margin: 4em 0 0 0;
 	}
 }
 
@@ -424,8 +467,92 @@ hr {
 	.contact{
 		text-align: center;
 		padding: 1.5em 0;
+		margin-top:  20%;
+	}
+	.subscribe{
+		text-align: center;
+	}
+
+	#modal-content .row{
+		margin: 0;
+		padding: 5% 5%;
+	}
+
+	#modal-content .row .contact h4{
+		margin: 5em 0 0 0!important;
+	}
+	#modal-content .row .hours{
+		padding-right: 1em;
+		padding-left: 0;
+
+	}
+
+	#modal-content .row .location {
+		padding-left: 1em;
+		padding-right: 0;
+
+	}
+	#modal-content .row ul{
+		padding: 0;
+	}
+
+}
+
+
+@media(max-width: 996px){
+	#modal-btn{
+		display: none;
+	}
+
+	#modal-window {
+		display: none!important;
+	}
+
+	.boxes{
+		margin: 1em 0!important;
+	}
+
+	#modal-content .contact h4{
+		margin: 4em 0 0 0;
+	}
+
+	.site_map{
+		display: none;
+	}
+
+	.location{
+		margin-left: 5%;
+		float: left;
+		padding: 0;
+		width: 40%;
+		padding-left: 2%;
+	}
+
+	.hours{
+		float: right;
+		margin-right: 5%;
+		padding: 0;
+		width: 40%;
+		padding-right: 2%;
+	}
+
+	.contact{
+		text-align: center;
+		padding: 5.2em 0 0 0;
+	}
+	.subscribe{
+		text-align: center;
+		width: 100%;
+	}	
+}
+
+
+@media(max-width: 600px){
+	footer ul li{
+		padding: 900px;
 	}
 }
+
 
 @keyframes modalopen{
   from{ opacity: 0}
