@@ -40,6 +40,6 @@ function outsideClick(e){
   });
 
 $('.box h2').click(function(e){
-	var a = $(this).parent().children('div');
-	a.fadeToggle(800);
+	var boxdetail = $(this).parent().children('div');
+	boxdetail.fadeToggle(800);
 })

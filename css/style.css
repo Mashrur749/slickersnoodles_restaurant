@@ -138,22 +138,26 @@ nav ul li a:hover{
 
 #section4 h2{
 	color: rgb(194, 203, 206);
-	padding: 0 0 0 2.5em;
 }
 
-#section4 .box h2:hover{
+#section4  h3{
+	color: rgb(152, 158, 160);
+	line-height: 1.7;
+
+}
+
+#section4  h3:hover{
 	cursor: pointer;
 	color: rgb(225, 225, 250);
 }
 
+
 #section4 .box div{
 	display: none;
-	padding: 0 0 0 5.3em;
+	border-top: 2px solid;
+	padding-top: 2em;
 }
 
-#section4 h3{
-	padding: 0 0 0 3em;
-}
 
 
 
