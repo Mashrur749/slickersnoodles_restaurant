@@ -137,8 +137,8 @@ nav ul li a:hover{
 }
 
 #section4 h2{
-	margin-left: 1em;
 	color: rgb(194, 203, 206);
+	padding: 0 0 0 2.5em;
 }
 
 #section4 .box h2:hover{
@@ -148,7 +148,11 @@ nav ul li a:hover{
 
 #section4 .box div{
 	display: none;
-	margin-left: 2.2em;
+	padding: 0 0 0 5.3em;
+}
+
+#section4 h3{
+	padding: 0 0 0 3em;
 }
 
 
