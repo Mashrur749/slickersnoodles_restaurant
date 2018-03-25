@@ -257,6 +257,7 @@ hr.col-sm-12{
 
 #section8 ul li a:hover{
 	color: rgb(194, 203, 206);
+	transition: color .5s;
 }
 
 

@@ -39,7 +39,7 @@ function outsideClick(e){
     } 
   });
 
-$('.box h2').click(function(e){
+$('.box h3').click(function(){
 	var boxdetail = $(this).parent().children('div');
 	boxdetail.fadeToggle(800);
 })
