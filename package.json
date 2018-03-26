@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mashrur749/imaginary_restaurant_site/issues"
   },
-  "homepage": "https://github.com/Mashrur749/imaginary_restaurant_site#readme"
+  "homepage": "https://github.com/Mashrur749/imaginary_restaurant_site#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
