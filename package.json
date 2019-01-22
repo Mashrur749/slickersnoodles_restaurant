@@ -1,7 +1,6 @@
 {
   "name": "restaurant",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mashrur749/imaginary_restaurant_site.git"
+    "url": "git+https://github.com/Mashrur749/imaginary_restaurant_site.git"
   },
   "author": "Mashrur",
   "license": "ISC",
@@ -19,6 +18,7 @@
   "homepage": "https://github.com/Mashrur749/imaginary_restaurant_site#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
-  }
+    "express": "^4.16.4"
+  },
+  "description": ""
 }
