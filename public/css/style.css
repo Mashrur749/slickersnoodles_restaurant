@@ -69,10 +69,18 @@ nav ul li a:hover{
 }
 
 .navbar-brand{
+<<<<<<< HEAD
 	transition: all .3s ease-in-out;
 }
 .navbar-brand:hover{
 	font-size: 1.3em;
+=======
+	transition: all .8s ease-in-out;
+}
+.navbar-brand:hover{
+	transform: rotate(360deg);
+	font-size: 1.4em;
+>>>>>>> 406880a97c3643635d14a6c51c1230efa5c47285
 }
 
 .icon {

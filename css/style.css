@@ -1,0 +1,590 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	line-height: 1.5;
+}
+
+
+header{
+	width: 100%;
+	height: 100%;
+	background-image: url("../noodle-1303003_1920.jpg");
+	background-size: cover;
+	text-align: center;
+	color: rgb(247, 255, 191);
+	background-origin: 3em	color: rgb(247, 255, 191);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+strong{
+	display: inline-block;
+	font-size: 1.1em;
+}
+
+header .content{
+	margin-top: 15%;
+}
+
+header .content h1{
+	color: rgba(223, 255, 168,.95);
+	font-weight: 1em;
+	text-shadow: 1px 1px 3px rgb(72, 79, 58),2px 2px 4px rgb(83, 89, 69);
+	font-weight: .95em;
+	font-family: 'Anton', sans-serif;
+	font-size: 3em;
+}
+
+header .content p{
+	font-size: 2em;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+nav{
+	border-radius: 0!important;
+	border: 0!important;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+nav ul li{
+	font-size: 1.3em;
+	margin: 0 .8em;
+	font-weight: 600;
+}
+nav ul li a{
+	transition: transform .5s;
+}
+nav ul li a:hover{
+	transform: scale(1.03);
+
+}
+
+.navbar-brand{
+	transition: all .8s ease-in-out;
+}
+.navbar-brand:hover{
+	transform: rotate(360deg);
+	font-size: 1.4em;
+}
+
+.icon {
+	margin-top: 1.05em;
+	font-size: 1.8em;
+}
+
+#section1{
+	background-color: rgb(22, 23, 25);
+	color: rgb(99, 100, 104);
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#section1 h2{
+	color: rgb(194, 203, 206);
+}
+
+#section1-content{
+	padding: 8em 0;
+}
+
+#section1-content .section1-logo{
+	margin-top: 1em;
+	font-size: 5em;
+}
+
+#section2 img{
+	position: center;
+	height: 43em;
+	width: 100%;
+	opacity: .9;
+}
+
+#section3{
+	color: rgb(99, 100, 104);
+	background-color: rgb(22, 23, 25);
+	padding: 7em;
+	border-bottom: 3px solid rgb(58, 60, 63);
+}
+
+#section3 p{
+	padding: .2em;
+	font-size: 1.3em;
+}
+
+#section3 h2{
+	padding-top: 1em;
+	color: rgb(194, 203, 206);
+}
+
+#section3 div div div .fa-fire{
+	font-size: 50px;
+}
+
+#section4{
+	color: rgb(99, 100, 104);
+	background: rgb(22, 23, 25);
+	text-transform: capitalize;
+	padding-bottom: 6em;
+}
+
+#section4 h1{
+	color: rgb(194, 203, 206);
+	padding: 1.2em;
+}
+
+#section4 h2{
+	color: rgb(194, 203, 206);
+}
+
+#section4  h3{
+	color: rgb(152, 158, 160);
+	line-height: 1.7;
+
+}
+
+#section4  h3:hover{
+	cursor: pointer;
+	color: rgb(225, 225, 250);
+}
+
+
+#section4 .box div{
+	display: none;
+	border-top: 2px solid;
+	padding-top: 2em;
+}
+
+
+
+
+#section4 .boxes{
+	color: rgb(194, 203, 206);
+	margin-top: 6em;
+}
+
+.download{
+	text-decoration: none;
+	color: rgb(221, 221, 221);
+	transition: transform .5s;
+	font-weight: 3em;
+	font-size: 1.2em;
+}
+.download:hover{
+	text-decoration: none;
+	color: rgb(255, 145, 168);
+	transform: scale(1.05); 
+}
+
+#section5 img{
+	height: 45em;
+	width: 100%;
+	opacity: .8;
+}
+
+
+#section6{
+	color: rgb(99, 100, 104);
+	padding: 4em 0 6em 0;
+	background: rgb(22, 23, 25);
+}
+
+
+#section6 h2{
+	color: rgb(194, 203, 206);
+	padding: 1.08em 0;
+}
+
+
+#section6 p:nth-of-type(2){
+	padding-bottom: 3em;
+}
+
+
+#section7{
+	background: rgb(22, 23, 25);
+}
+
+
+#section7 h2{
+	color: rgb(194, 203, 206);
+	padding: 1.1em 0;
+	font-family: 'Anton', sans-serif;
+	margin: 0;
+	font-size: 3em;
+}
+#section7 iframe{
+	width: 100%;
+	height: 25em;
+}
+
+
+
+hr.col-sm-12{
+	width: 90%;
+}
+
+
+#section8{
+	background-color:  rgb(22, 23, 25);
+	padding: 2.5em 0;
+}
+
+#section8 h1,#section8 h2,#section8 h4{
+	color: rgb(194, 203, 206);
+}
+
+.section8-branding{
+	padding: 3em;
+}
+
+#section8 ul{
+	list-style: none;
+}
+
+#section8 ul li a{
+	text-decoration: none;
+	color: rgb(109, 111, 112);
+}
+
+#section8 ul {
+	color: rgb(109, 111, 112);
+}
+
+
+#section8 ul li a:hover{
+	color: rgb(194, 203, 206);
+	transition: color .5s;
+}
+
+
+#section8 img,.contact img{
+	border-radius: 25px;
+	width: 32px;
+	opacity: .6;
+	transition: all .5s;
+}
+
+
+#section8 h4{
+	padding-bottom: .8em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid rgba(239, 246, 255, .16);
+}
+
+
+#section8 .insta,.contact .insta{
+	width: 38px;
+	height: 36px;
+}
+
+#section8 img:hover,.contact img:hover{
+	opacity: .9;
+}
+
+
+#section8 .form-group{
+	display: inline-block;
+}
+
+#section8 div .form-control {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+}
+
+#button {
+	color: rgb(132, 132, 132);
+	font-weight: 600;
+	margin: .08em 0;
+	padding: .4em .8em;
+	background-color: rgb(22, 23, 25);
+	border: 1px rgba(114, 114, 114,.5) solid;
+	border-radius: 5px;
+	transition: all .5s;
+}
+
+#button:hover{
+	border: 1px solid rgb(22, 23, 25);
+	background-color: rgb(253, 255, 239);
+	color: rgb(25, 27, 28);
+}
+
+footer{
+	height: 13%;
+	background: rgb(37, 39, 43);
+}
+
+.footer{
+	padding: 1em 0 0 0;
+	color: rgb(132, 132, 132);
+}
+
+footer img{
+	width: 38px;
+	border-radius: 20px;
+	opacity: .8;
+}
+footer img:hover{
+	opacity: 1;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(51, 57, 66, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#modal-window{
+	display: none;
+	z-index: 1;
+	width: 100%;
+	height:100%;
+	position: fixed;
+	background-color: rgba(68, 74, 81,.8);
+ 	animation-name:modalopen;
+  	animation-duration:1s;
+}
+
+
+
+.close{
+	float: right;
+}
+
+#modal-content{
+	margin: 2% 25%;
+	padding: 0 0 2% 0;
+	background-color: rgb(125, 140, 96);
+}
+
+#modal-content ul {
+	list-style: none;
+	padding: 0;
+}
+#modal-content .row h4, #modal-content span{
+	color: rgb(253, 255, 247);
+}
+#modal-content .row .location{
+	float: left;
+	margin:  0 ;
+	padding:0  0 0 6em;
+	height: 100%;
+	width: 50%;
+}
+
+#modal-content .row .hours{
+	float: right;
+	margin: 0 ;
+	padding: 0 6em 0 0;
+	height: 100%;
+	width: 50%;
+}
+
+#modal-content .row h1{
+	margin: 0;
+}
+
+.close{
+	padding: 3%;
+}
+
+.number{
+	padding-top: 2em;
+}
+
+#modal ul {
+	padding: 0!important;
+}
+
+
+#modal-window hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(31, 45, 24,.5), rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+
+
+@media(max-width: 893px){
+	nav .navbar-nav li a{
+		padding: 15px 0;
+	}
+	#section2 img,#section5 img{
+		height: 70%;
+	}
+	#contact,.form-group{
+		clear: all;
+		width: 100%!important;
+	}
+
+	#section8 form .form-control,#button{
+		width: 100%;
+	}
+
+	#modal-content .contact h4{
+		margin: 4em 0 0 0;
+	}
+}
+
+
+
+@media(max-width: 790.5px){
+	.pullright{
+		clear: all!important;
+	}
+	header{
+		background-position: center;
+	}
+	nav .navbar-nav li a{
+		padding: 15px 0;
+	}
+	
+	#section2 img,#section5 img{
+		height: 70%;
+	}
+	.navbar-brand{
+		padding: 15px 0;
+	}
+
+	#modal-content .contact h4{
+		margin: 4em 0 0 0;
+	}
+}
+
+@media(max-width: 768px){
+
+	nav .navbar-nav{
+		float: none;
+	}
+
+	.site_map{
+		display: none;
+	}
+
+	.location{
+		margin-left: 5%;
+		float: left;
+	}
+
+	.hours{
+		float: right;
+		margin-right: 10%;
+	}
+
+	.contact{
+		text-align: center;
+		padding: 1.5em 0;
+		margin-top:  20%;
+	}
+	.subscribe{
+		text-align: center;
+	}
+
+	#modal-content .row{
+		margin: 0;
+		padding: 5% 5%;
+	}
+
+	#modal-content .row .contact h4{
+		margin: 5em 0 0 0!important;
+	}
+	#modal-content .row .hours{
+		padding-right: 1em;
+		padding-left: 0;
+
+	}
+
+	#modal-content .row .location {
+		padding-left: 1em;
+		padding-right: 0;
+
+	}
+	#modal-content .row ul{
+		padding: 0;
+	}
+
+}
+
+
+@media(max-width: 996px){
+	#modal-btn{
+		display: none;
+	}
+
+	#modal-window {
+		display: none!important;
+	}
+
+	.boxes{
+		margin: 1em 0!important;
+	}
+
+	#modal-content .contact h4{
+		margin: 4em 0 0 0;
+	}
+
+	.site_map{
+		display: none;
+	}
+
+	.location{
+		margin-left: 5%;
+		float: left;
+		padding: 0;
+		width: 40%;
+		padding-left: 2%;
+	}
+
+	.hours{
+		float: right;
+		margin-right: 5%;
+		padding: 0;
+		width: 40%;
+		padding-right: 2%;
+	}
+
+	.contact{
+		text-align: center;
+		padding: 5.2em 0 0 0;
+	}
+	.subscribe{
+		text-align: center;
+		width: 100%;
+	}	
+}
+
+
+@media(max-width: 600px){
+	footer ul li{
+		padding: 900px;
+	}
+}
+
+
+@keyframes modalopen{
+  from{ opacity: 0}
+  to {opacity: 1}
+}

@@ -43,7 +43,7 @@ $('.box h3').click(function () {
   var boxdetail = $(this).parent().children('div');
   boxdetail.fadeToggle(800);
   for (var i = 0; i < boxes.length; i++) {
-    if (boxes[i].children[1].style.display = 'block' && boxes[i].children[1] != boxdetail[0s]) {
+    if (boxes[i].children[1].style.display = 'block' && boxes[i].children[1] != boxdetail[0]) {
       boxes[i].children[1].style.display = 'none';
     }
   }
